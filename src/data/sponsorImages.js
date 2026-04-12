@@ -1,6 +1,6 @@
 // Cloudinary public IDs for sponsor images
 export const sponsorImagesMap = {
-  "5paisa": "5paisa_purak1",
+  "ims": "ims-logo_nydtqa",
   "Asmi": "Asmi_zeavvl",
   "calorie_minus": "calorie_minus_nmgkr4",
   "CakesAndCrumbs": "CakesAndCrumbs_u39glj",
@@ -20,12 +20,11 @@ export const sponsorImagesMap = {
   "sana": "sana_gp3oxz",
   "SHF_health": "SHF_health_hcba7l",
   "simplygaming": "simplygaming_fouetx",
-  "yocket": "yocket_aayjcs",
-  "ims": "ims-logo_nydtqa"
+  "5paisa": "5paisa_purak1" 
 };
 
 export const sponsors = [
-  { id: 1, name: "5paisa", key: "5paisa" },
+  { id: 1,  name: "IMS", key: "ims" },
   { id: 2, name: "Asmi", key: "Asmi" },
   { id: 3, name: "Cakes And Crumbs", key: "CakesAndCrumbs" },
   { id: 4, name: "Coke Studio Bharat", key: "Coke_Studio_Bharat" },
@@ -45,6 +44,5 @@ export const sponsors = [
   { id: 18, name: "Prasuma", key: "prasuma" },
   { id: 19, name: "Sana", key: "sana" },
   { id: 20, name: "Simply Gaming", key: "simplygaming" },
-  { id: 21, name: "Yocket", key: "yocket" },
-  { id: 22, name: "IMS", key: "ims" }
+  { id: 21, name: "5paisa", key: "5paisa" }
 ];
