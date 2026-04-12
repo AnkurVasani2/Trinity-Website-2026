@@ -20,8 +20,8 @@ export const sponsorImagesMap = {
   "sana": "sana_gp3oxz",
   "SHF_health": "SHF_health_hcba7l",
   "simplygaming": "simplygaming_fouetx",
-  "5paisa": "5paisa_purak1" 
-  "yocket": "yocket_aayjcs",
+  "5paisa": "5paisa_purak1",
+  "yocket": "yocket_aayjcs"
 };
 
 export const sponsors = [ 
