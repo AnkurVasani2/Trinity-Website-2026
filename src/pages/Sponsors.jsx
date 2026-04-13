@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useMemo } from "react";
 import backgroundImage from "../images/backgroundImage.png";
 import sponsorBackground from "../images/sponsorBackground.png";
 import { sponsors, sponsorImagesMap } from "../data/sponsorImages";
 import { getCloudinaryUrl } from "../utils/cloudinary";
 
-export default function Sponsor(compact = false) {
+export default function Sponsor({ compact = false }){
+  const shuffleArray = (array) => {
+  return [...array]
+    .map((item) => ({ item, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ item }) => item);
+};
+
+  const shuffledSponsors = useMemo(() => shuffleArray(sponsors), []);
+
+  
   return (
     <div
       className="min-h-screen bg-cover bg-center w-full bg-no-repeat flex items-center justify-center p-10 md:px-20"
@@ -50,7 +60,7 @@ export default function Sponsor(compact = false) {
 
         {/* Sponsors Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 lg:gap-10 max-w-4xl mx-auto">
-          {sponsors.map((sponsor) => {
+          {shuffledSponsors.map((sponsor) => {
             const publicId = sponsorImagesMap[sponsor.key];
             const imageUrl = getCloudinaryUrl(publicId, { width: 300, quality: 75 });
             
