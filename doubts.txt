@@ -1,0 +1,23 @@
+6th march- registration ends
+8th march- initial ppt submission
+9th and 10th march- presentation round 0
+
+labs and classrooms for hackathon and resting
+
+
+questions:
+
+1. only python is allowed?
+2. call for papers from different participants other than the hackathon participants or both are allowed
+3. publication in which reputed journals and conferences
+4. hybrid format of the entire hackathon
+5. event material and swags: permission for external sponsership and goddis
+6. speakers of the workshops keynote address
+7. problem statement to be announced before round 0 or on the 1st day?
+8. workshop mode: online or offline or both
+9. mentors for the hackathon to be provided by sir?: what about their stay and logistics
+10. external sponsers for informal and refreshment activities
+11. round 0 for paper presentations?
+12. presentation should run parallel or sequential
+13. voting for peoples choice award
+14. cloud credits and premium apis
